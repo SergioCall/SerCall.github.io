@@ -3,6 +3,13 @@
 /*
  * Open Sans
 ================================================================================ */
+body { background-color: #fff; }
+p99 {
+  color: white;
+  font-size: 68px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 4px 0 0 #3206ac, -4px 0 0 #3206ac, 0 4px 0 #3206ac, 0 -4px 0 #3206ac, 2px 2px #3206ac, -2px -2px 0 #3206ac, 2px -2px 0 #3206ac, -2px 2px 0 #3206ac;
+}
 @font-face {
    font-family: 'opensans-regular';
    src: url('fonts/opensans/OpenSans-Regular-webfont.eot');
