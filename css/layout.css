@@ -165,7 +165,7 @@ ul#nav li.current a { color: #ffffff; }
 
 #hero {
    padding-top: 160px;
-   background: #1a2025 url(img/sergiofondo.png) ;
+   background: #1a2025 url(img/verde.png) ;
    overflow: inherit;
  
 }
@@ -176,7 +176,7 @@ ul#nav li.current a { color: #ffffff; }
 (min-resolution: 185dpi) {
 
 	#hero { 
-		background: #2a3138 url(img/hero-bg.png); 
+		background: #2a3138 url(img/rojo.png); 
 		background-size: 100px 100px;
 	}
   
