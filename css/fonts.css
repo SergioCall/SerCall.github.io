@@ -4,6 +4,20 @@
  * Open Sans
 ================================================================================ */
 body { background-color: #fff; }
+.red-text-shadow {
+   text-shadow:
+   1px 1px 2px rgb(0, 0, 0),
+    0 0 2em blue,
+    0 0 1em greenyellow,0 0 1em blue,0 0 1em blue,0 0 1em blue;
+  color: rgb(255, 255, 255);
+  font:
+    1.5em Georgia,
+    serif;
+ }
+.black-text-shadow {
+   text-shadow: 4px 0 0 #3206ac, -4px 0 0 #3206ac, 0 4px 0 #3206ac, 0 -4px 0 #3206ac, 2px 2px #3206ac, -2px -2px 0 #3206ac, 2px -2px 0 #3206ac, -2px 2px 0 #3206ac;
+ }
+ 
 p99 {
   color: white;
   font-size: 68px;
