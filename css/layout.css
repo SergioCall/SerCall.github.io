@@ -287,7 +287,7 @@ ul#nav li.current a { color: #ffffff; }
    text-align: center;
 }
 #pricing .price-block {
-   background: #fff;
+   background: #000000;
    border: 1px solid #E6E6E6;
    text-align: center;
    margin-bottom: 36px;
