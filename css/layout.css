@@ -26,7 +26,7 @@
 /* a. General and Common Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #04100f; }
+body { background: #0a0c0e; }
 
 .section-head {
   	padding: 0 4%;
@@ -165,8 +165,9 @@ ul#nav li.current a { color: #ffffff; }
 
 #hero {
    padding-top: 160px;
-   background: #1a2025 url(img/sergiofondo.png) ; /* para la pc */
-   overflow: inherit;
+   background: #000000 url(img/sergiofondo1.png) repeat-x  center; /* para la pc */
+   overflow: visible;
+   padding-bottom: 120px;
  
 }
 
@@ -176,7 +177,7 @@ ul#nav li.current a { color: #ffffff; }
 (min-resolution: 185dpi) {
 
 	#hero { 
-		background: #2a3138 url(img/sergiofondo2.png); /* para celulares */
+		background: #1a2025 url(img/sergiofondo1.png); /* para celulares */
 		background-size: 100px 100px;
 	}
   
@@ -189,7 +190,7 @@ ul#nav li.current a { color: #ffffff; }
 	color: #ffffff;
    width: 50%;
    text-align: center;
-   margin: 25px auto 10px auto;
+   margin: 100px auto 10px auto;
 }
 .hero-text h1 {
    font: 40px/1.2em 'montserrat-regular', sans-serif; 
@@ -461,7 +462,7 @@ ul.features li:nth-child(even) { }
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
-   background: #23292F;
+   background: #1a2025;
    padding-top: 72px;
    padding-bottom: 48px;
 }
@@ -509,7 +510,7 @@ ul.features li:nth-child(even) { }
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #023131 url(img/espacioprofundo.png);
+   background: #1a2025 url(img/espacioprofundo.png);
    padding-top: 112px;
    padding-bottom: 66px;
    position: rcenter;
@@ -525,7 +526,7 @@ ul.features li:nth-child(even) { }
 (min-resolution: 192dpi) {
 
 	#testimonials {
-		background: #002427 url(img/hero-bg.png);
+		background: #000000 url(img/hero-bg.png);
 		background-size: 100px 29px;
 	}
   
@@ -666,7 +667,7 @@ ul.features li:nth-child(even) { }
 /* ------------------------------------------------------------------ */
 
 #subscribe {
-   background: #23292F;
+   background: #1a2025;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -730,14 +731,14 @@ ul.features li:nth-child(even) { }
 footer {
    padding-top: 84px;
    margin-bottom: 60px;
-   color: #3574b7;
+   color: #4d4d4d;
    font-size: 13px;
    line-height: 24px;
    position: relative;   
 }
 
 footer a, footer a:visited { color: #0A6567; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: #a7a5a5; }
 
 footer .info { padding-right: 90px; }
 
@@ -763,7 +764,7 @@ footer h3 {
    font: 13px/24px 'opensans-semibold', sans-serif;
    margin-bottom: 0;
    font-weight: normal;
-   color: #fff;
+   color: #7e8080;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -773,7 +774,7 @@ footer h3:before {
 	font-size: 30px;
    line-height: 48px;
    text-align: left;
-   color: #738291;
+   color: #1f584a;
    display: block;
 }
 footer h3.address:before { content: "\f041"; }
@@ -789,7 +790,7 @@ footer ul li {
    line-height: 24px;
 }
 footer ul li a,
-footer ul li a:visited { color: #3c4753; }
+footer ul li a:visited { color: #5f5e5e; }
 footer ul li a:hover,
 footer ul li a:focus { color: #fff; }
 
@@ -828,7 +829,7 @@ footer .copyright {
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background: #0F9095; }
+#go-top a:hover { background: #ffffff; }
 
 
 /* ------------------------------------------------------------------ */
@@ -852,7 +853,7 @@ footer .copyright {
 #imagelightbox-loading {
    width: 2.5em; /* 40 */
    height: 2.5em; /* 40 */
-   background-color: #444;
+   background-color: #ffffff;
    background-color: rgba( 0, 0, 0, .5 );
    position: fixed;
    z-index: 999;
@@ -898,7 +899,7 @@ footer .copyright {
 
 /* lightbox overlay */
 #imagelightbox-overlay {
-   background-color: #383838;
+   background-color: #dddddd;
    background-color: rgba( 0, 0, 0, .8 );
    position: fixed;
    z-index: 994;
@@ -927,7 +928,7 @@ footer .copyright {
 	box-shadow: 0 0 2.5em rgba( 0, 0, 0, .5 ); /* 40 */
 }
 a#imagelightbox-close { color: #333; }
-a#imagelightbox-close:hover, a#imagelightbox-close:focus { color: #11ABB0; }
+a#imagelightbox-close:hover, a#imagelightbox-close:focus { color: #ffffff; }
 
 /* lightbox caption */
 #imagelightbox-caption {
