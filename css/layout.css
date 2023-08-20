@@ -177,7 +177,7 @@ ul#nav li.current a { color: #ffffff; }
 (min-resolution: 185dpi) {
 
 	#hero { 
-		background: #1a2025 url(img/sergiofondo1.png) repeat-x  center; /* para celulares */
+		background: #1a2025 url(img/sergiofondo1.png) no-repeat  center; /* para celulares */
 		padding-bottom: 120px;;
 	}
   
