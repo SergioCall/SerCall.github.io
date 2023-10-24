@@ -30,13 +30,13 @@ body { background: #0a0c0e; }
 
 .section-head {
   	padding: 0 4%;
-   text-align: center;
+   text-align: left;
 }
 .section-head h1 {
-   font: 20px/36px 'montserrat-bold', sans-serif;
+   font: 20px/36px 'Comic Mono','montserrat-bold', sans-serif;
    color: #333;
-   text-transform: uppercase;
-   letter-spacing: 1.5px;
+   
+   letter-spacing: 0.5px;
    margin-bottom: 10px;
 }
 
@@ -55,7 +55,7 @@ body { background: #0a0c0e; }
 header {
    height: 50px;
    width: 100%;
-   background: #13171B;
+   background: #000000;
    position: fixed;
    left: 0;
    top: 0;
@@ -113,7 +113,7 @@ header .header-social li a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 13px 'montserrat-regular', sans-serif;
+   font: 13px 'ComicMono','montserrat-regular', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1.5px;
    float: left;
@@ -164,10 +164,13 @@ ul#nav li.current a { color: #ffffff; }
 /* ------------------------------------------------------------------ */
 
 #hero {
-   padding-top: 160px;
-   background: #000000 url(img/sergiofondo1.png) repeat-x  center; /* para la pc */
-   overflow: visible;
+   padding-top: 100px;
+   background: #000000 url(img/sergiof5.png) no-repeat  center; /* para la pc */
+   background-size:cover;
+  
+   
    padding-bottom: 120px;
+ 
  
 }
 
@@ -188,12 +191,12 @@ ul#nav li.current a { color: #ffffff; }
 /* Hero Text */
 .hero-text {
 	color: #ffffff;
-   width: 50%;
+   width: 100%;
    text-align: center;
    margin: 100px auto 10px auto;
 }
 .hero-text h1 {
-   font: 40px/1.2em 'montserrat-regular', sans-serif; 
+   font: 40px/1.2em 'ComicMono','montserrat-regular', sans-serif; 
    color: #fff;
    padding: 0;
    margin: 0;
@@ -202,7 +205,7 @@ ul#nav li.current a { color: #ffffff; }
 .hero-text h1 span,
 .hero-text a { color: #11ABB0; }
 .hero-text p {
-   font: 16px/30px 'opensans-regular', sans-serif;
+   font: 16px/30px 'ComicMono','opensans-regular', sans-serif;
    padding: 0;
    margin: 12px 8% 0;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
@@ -224,7 +227,7 @@ ul#nav li.current a { color: #ffffff; }
    margin: 0 0 18px 0;
 }
 #hero .buttons .button {
-   font: 14px/24px 'montserrat-bold', sans-serif;
+   font: 14px/24px 'ComicMono','montserrat-bold', sans-serif;
    text-transform : uppercase;
    letter-spacing: 2px;
 }
@@ -248,7 +251,7 @@ ul#nav li.current a { color: #ffffff; }
 /* ------------------------------------------------------------------ */
 
 #features {
-   background: #ffffff;
+   background: #13171B;
    padding-top: 96px;
    padding-bottom: 78px;
    overflow: hidden;
@@ -266,11 +269,19 @@ ul#nav li.current a { color: #ffffff; }
    float: left;   
 }
 #features h3 {
-   font: 16px/24px 'montserrat-bold', sans-serif;
-   text-transform: uppercase;
+   font: 20px/24px 'ComicMono','montserrat-bold', sans-serif;
+   float:left;
    letter-spacing: 1px;
-   color: #222;
+   color: #f1f2f3c7;
 }
+#features h6 {
+   font: 20px/24px 'ComicMono','montserrat-bold', sans-serif;
+   text-align:center;
+   letter-spacing: 1px;
+   color: #f1f2f3c7;
+   
+}
+
 .fluid-video-wrapper { margin-top: 18px; }
 
 
@@ -279,7 +290,7 @@ ul#nav li.current a { color: #ffffff; }
 /*----------------------------------------------*/
 
 #pricing {
-	background: #F7F7F7;
+	background: #13171B;
    padding-top: 50px;
    padding-bottom: 77px;   
    border-top: 1px solid #F0F0F0;
@@ -293,7 +304,7 @@ ul#nav li.current a { color: #ffffff; }
    margin-bottom: 36px;
 }
 .plan-title {
-  	font: 15px/30px 'montserrat-regular', sans-serif;
+  	font: 15px/30px 'ComicMono','montserrat-regular', sans-serif;
   	padding: 30px 20px 6px 20px;
    margin-bottom: 0px;
   	text-align: center;
@@ -306,7 +317,7 @@ ul#nav li.current a { color: #ffffff; }
    font-size: 20px;
 }
 .plan-price {
-	font-family: 'montserrat-bold', sans-serif;
+	font-family: 'ComicMono','montserrat-bold', sans-serif;
    font-size: 30px;
    color: #474747;
 	padding: 6px 30px 6px 30px;
@@ -315,7 +326,7 @@ ul#nav li.current a { color: #ffffff; }
    letter-spacing: .5px;
 }
 .plan-price span {
-	font-family: 'opensans-light', sans-serif;
+	font-family: 'ComicMono','opensans-light', sans-serif;
 	font-size: 15px;
 	color: #4d4c4c;	
 	display: block;
@@ -339,7 +350,7 @@ ul.features li:nth-child(even) { }
    text-align: center;
 }
 .plan-sign-up .button {
-   font: 13px/24px 'montserrat-bold', sans-serif;
+   font: 13px/24px 'ComicMono','montserrat-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 2px;
 }
@@ -467,7 +478,7 @@ ul.features li:nth-child(even) { }
    padding-bottom: 48px;
 }
 #call-to-action h1 {
-   font: 18px/24px 'montserrat-bold', sans-serif;
+   font: 18px/24px 'ComicMono', 'montserrat-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -718,7 +729,7 @@ ul.features li:nth-child(even) { }
    padding: 18px 20px;
    font-size: 18px;
    line-height: 24px;
-   font-family: 'montserrat-regular',sans-serif;
+   font-family: 'ComicMono','montserrat-regular',sans-serif;
    width: 47%;  
    text-align: center;
 }

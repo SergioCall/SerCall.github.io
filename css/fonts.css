@@ -11,7 +11,7 @@ body { background-color: #fff; }
     0 0 1em rgba(255, 255, 255, 0.151),0 0 1em rgba(255, 255, 255, 0.089);
   color: rgb(255, 255, 255);
   font:
-    1.5em Georgia,
+    1.5em ComicMono,
     serif;
  }
 .black-text-shadow {
@@ -20,7 +20,7 @@ body { background-color: #fff; }
  
 p99 {
   color: white;
-  font-size: 60px;
+  font-size: 110px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-shadow: 4px 0 0 #3206ac, -4px 0 0 #3206ac, 0 4px 0 #3206ac, 0 -4px 0 #3206ac, 2px 2px #3206ac, -2px -2px 0 #3206ac, 2px -2px 0 #3206ac, -2px 2px 0 #3206ac;
 }
@@ -31,6 +31,15 @@ p99 {
         url('fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'),
         url('fonts/opensans/OpenSans-Regular-webfont.ttf') format('truetype'),
         url('fonts/opensans/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+   font-weight: normal;
+  	ont-style: normal;
+}
+@font-face {
+   font-family: 'ComicMono';
+   src: url('fonts/ComicMono/ComicMono.ttf') format('truetype');
+   src: 
+        url('fonts/ComicMono/ComicMono.ttf') format('truetype');
+
    font-weight: normal;
   	ont-style: normal;
 }
@@ -160,10 +169,8 @@ p99 {
 ================================================================================ */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 
-   @font-face {
-   font-family: 'opensans-semibold';
-   src: url('fonts/opensans/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
-   }
+
+   
 
    @font-face {
    font-family: 'opensans-bold';

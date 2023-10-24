@@ -31,7 +31,7 @@
 @media only screen and (max-width: 900px) {
 
 	/* General and Common Styles */
-	.section-head h1 { font: 18px/30px 'montserrat-bold', sans-serif; }
+	.section-head h1 { font: 18px/30px 'Comicmono','montserrat-bold', sans-serif; }
 
    /* Header Styles
    ------------------------------------------------------------------ */
@@ -102,7 +102,7 @@
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap {
-      font: 11px 'montserrat-regular', sans-serif;
+      font: 11px 'ComicMono', 'montserrat-regular', sans-serif;
       background: transparent !important;
       letter-spacing: 1.5px;  
       color: #515968;
